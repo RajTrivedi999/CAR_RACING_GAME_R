@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+}
+.start{
+    border: 5px solid rgb(166, 114, 202);
+    border-style: groove;
+    margin-top: 10px;
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: rgb(171, 40, 40);
+    width: 600px;
+    padding: 5px;
+    gap: 5px;
+    z-index: 2;
+}
+.road{
+    background-color: black;
+    height: 100%;
+    width: 600px;
+    position: absolute;
+    left: 540px;
+    border-left: 5px solid rgb(195, 197, 171);
+    border-right: 5px solid rgb(195, 197, 171);
+    border-style: dashed;
+}
+
+.hide{
+    display: none;
+}
+
+.line{
+    background-color: white;
+    height: 130px;
+    width: 10px;
+    left: 50%;
+    position: absolute;
+}
+
+.myCar{
+    height: 120px;
+    width: 80px;
+    background-color: aquamarine;
+    position: absolute;
+    bottom: 0;
+}
+
+.enemy{
+    position: absolute;
+    height: 120px;
+    width: 80px;
+    top: 200px;
+    z-index: 1;
+}
