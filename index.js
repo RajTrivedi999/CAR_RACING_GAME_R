@@ -100,6 +100,7 @@ function startgame(){
     }
 
     let myCar=document.createElement('div')
+    myCar.src="./"
     myCar.classList.add('myCar')
     road.appendChild(myCar)
     
